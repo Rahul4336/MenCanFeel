@@ -98,7 +98,7 @@ public class Home_Fragment extends Fragment {
         final ArrayList<String> type = new ArrayList<>();
         final ArrayList<String> chray = new ArrayList<>();
 
-        final String myurl = "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e8583282-c7a5-4de2-9b7a-269d705b015a/posts.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220621%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220621T020648Z&X-Amz-Expires=86400&X-Amz-Signature=1043bb0bf52ed0e7649bdea8f7b5b2bde3139a3d3f58160298a25eda5b27e39b&X-Amz-SignedHeaders=host&x-id=GetObject";
+        final String myurl = "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e8583282-c7a5-4de2-9b7a-269d705b015a/posts.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220622T025326Z&X-Amz-Expires=86400&X-Amz-Signature=be0336e6f163a84f7384b6c8a783791ce1697c5b4c02e12038bb5c05578038e9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22posts.json%22&x-id=GetObject";
         progress.setVisibility(View.VISIBLE);
 
         RequestQueue queuereq = Volley.newRequestQueue(getActivity());
